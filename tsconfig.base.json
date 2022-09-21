@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "allowJs": true,
+      "esModuleInterop": true,
+      "target": "ESNext",
+      "noImplicitAny": false,
+      "moduleResolution": "node",
+      "strict": true,
+      "outDir": "dist",
+      "resolveJsonModule": true
+    }
+}

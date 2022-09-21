@@ -1,0 +1,27 @@
+{  
+  "Version": "2012-10-17",
+  "Statement":[{
+    "Effect": "Allow",
+    "Action": [
+      "dynamodb:BatchGetItem",
+      "dynamodb:GetItem",
+      "dynamodb:Query",
+      "dynamodb:Scan",
+      "dynamodb:BatchWriteItem",
+      "dynamodb:PutItem",
+      "dynamodb:UpdateItem"
+    ],
+    "Resource": "arn:aws:dynamodb:eu-central-1:768034275734:table/Users"
+   },
+   {
+    "Effect": "Allow",
+    "Action": [
+      "dynamodb:DescribeStream",
+      "dynamodb:GetRecords",
+      "dynamodb:GetShardIterator",
+      "dynamodb:ListStreams"
+    ],
+    "Resource": "arn:aws:dynamodb:eu-central-1:768034275734:table/Users/stream/2022-09-16T13:47:30.767"
+}
+  ]
+}

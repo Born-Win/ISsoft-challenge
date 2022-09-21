@@ -1,0 +1,12 @@
+{
+  "name": "get_users_lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^17.6.0"
+  }
+}

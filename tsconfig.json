@@ -1,0 +1,14 @@
+// config used for development
+{
+    "extends": "./tsconfig.base.json",
+    "include": [
+        "src/lambdas",
+        "src/**/package.json",
+        "src/**/package-lock.json",
+        "test/**/*"
+      ],
+      "exclude": [
+        "src/**/node_modules"
+      ]
+  }
+  
